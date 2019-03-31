@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+<script type="text/javascript">
+function validate() {
+	
+	if(${responce==null}){
+		alart("Wrong id or pass")
+	}
+}
+
+</script>
+</head>
+<body onload="validate()">
+
+	<h1>Login Page</h1>
+	<form action="login" method="post">
+		<input type="text" name="username" placeholder="username"><br>
+		<input type="password" name="password" placeholder="password"><br>
+		<input type="submit" value="Submit"><br>
+	</form>
+</body>
+</html>
